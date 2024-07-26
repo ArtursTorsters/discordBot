@@ -14,7 +14,7 @@ module.exports = {
             await interaction.reply(quote);
         } catch (error) {
             console.error('Error fetching quote:', error);
-            await interaction.reply('Failed to fetch a quote. Please try again later.');
+            await interaction.reply('Failed to fetch quote:', error);
         }
     },
 };
