@@ -1,14 +1,14 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
-require('dotenv').config(); // Load environment variables from .env file
+require('dotenv').config()
 
 // Create a new client instance
 const client = new Client({ 
     intents: [
         GatewayIntentBits.Guilds, 
         GatewayIntentBits.GuildMessages, 
-        GatewayIntentBits.MessageContent // Ensure this intent is included to read message content
+        GatewayIntentBits.MessageContent
     ]
 });
 
