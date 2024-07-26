@@ -18,17 +18,17 @@ Can add new slash commands https://discordjs.guide/creating-your-bot/
 
 ## Setup
 
-git clone https://github.com/yourusername/discord-challenge-bot.git
-cd project
-npm install
-Create a .env file in the root directory of your project and add your Discord bot token
-Run the deploy-commands.js script to register your bot's slash commands with Discord
-Run the index.js script to start the bot
+- git clone https://github.com/yourusername/repo
+- cd project
+- npm install
+- Create a .env file in the root directory of your project and add your Discord bot token
+- Run the deploy-commands.js script to register your bot's slash commands with Discord
+- Run the index.js script to start the bot
 
 ## Commands
 
-/challenge: Provides a random coding challenge from the predefined list.
-/quotes: Provides a random quote from https://dummyjson.com 
-/user: Provides a user information
+- /challenge: Provides a random coding challenge from the predefined list.
+- /quotes: Provides a random quote from https://dummyjson.com 
+- /user: Provides a user information
 
 The bot will respond to common greetings such as "hello", "hi", and "hey".
